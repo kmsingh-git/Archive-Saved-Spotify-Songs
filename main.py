@@ -3,9 +3,9 @@ import spotipy.util as util
 import random
 
 SCOPE = 'user-library-read'
-USERNAME = "ksingh1993"
-SPOTIPY_CLIENT_ID = "7788d7cbcbb7495caac606155c8c5184"
-SPOTIPY_CLIENT_SECRET = "17aefb97a4734931a95e2cb7cb3494b8"
+USERNAME = ""
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
 REDIRECT_URI = "http://localhost/"
 
 token = util.prompt_for_user_token(USERNAME,
