@@ -1,8 +1,13 @@
 # Archive-Saved-Spotify-Songs
-### Still in progress
+Just a simple script to create a backup of all your saved songs. 
+Uses OAuth so you'll have to login on the browser.
+Saves the file in a csv.
+Requires 3 environment variables:
 
-About once every year, I like to delete all my saved songs and start from scratch, because I get bored want to reset the seed in a way. But I would like to archive those songs so that in the future I can get them again. I think songs can get boring if you over play them but their appeal doesn't get lost, permanently. So it's nice to go back to the archives and pick out old tracks.
+SPOTIPY_CLIENT_ID
+SPOTIPY_CLIENT_SECRET
+SPOTIPY_REDIRECT_URI
 
-To that effect, this is a simple app that saves your songs in a csv, which in fact can be later loaded into a new playlist or your current saved songs, also programmatically (I'll work on that next).
+To do this, you got to My Dashboard on the Spotify Developer website, create an app. Spotify will generate a client id and secret for you, and you can specify a Redirect_uri in the Settings page. Then, just set these 3 things as environment variables (I did that in my virtualenv activate file, 'exporrt SPOTIPY_CLIENT_ID=...', and in the deactivate function, 'unset SPOTIPY_CLIENT_ID' <-- Do this for all 3.
 
 Cheers
