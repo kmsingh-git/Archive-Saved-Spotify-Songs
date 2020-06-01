@@ -1,6 +1,7 @@
 # Archive-Saved-Spotify-Songs
-Just a simple script to create a backup of all your saved songs. Saves the songs in a csv file. 
-<br> Uses OAuth so you'll be prompted to login on the browser.
+Just a simple script to create a backup of all your saved songs. Saves the songs in a csv file.
+<br> Use the file attempt_2.py
+<br> It uses OAuth so you'll be prompted to login on the browser when you run the app.
 
 <br> Before running the script, set these 3 environment variables:
 
