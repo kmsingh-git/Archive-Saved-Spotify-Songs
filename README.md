@@ -4,7 +4,7 @@ Uses OAuth so you'll have to login on the browser.
 Saves the file in a csv.
 Requires 3 environment variables:
 
-SPOTIPY_CLIENT_ID
+<br> SPOTIPY_CLIENT_ID
 SPOTIPY_CLIENT_SECRET
 SPOTIPY_REDIRECT_URI
 
